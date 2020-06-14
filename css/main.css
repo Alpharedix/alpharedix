@@ -9,7 +9,7 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,500,600,700);
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -308,7 +308,7 @@ ul li {
 	opacity: 0.5;
 }
 .banner-text {
-	padding-top: 33%;
+	padding-top: 30%;
 }
 .banner-text h1 {
 	color: #fff;
