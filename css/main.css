@@ -305,7 +305,7 @@ ul li {
 	min-height: 750px;
 }
 .banner-btn {
-	opacity: 0.5;
+	opacity: 1;
 }
 .banner-text {
 	padding-top: 30%;
@@ -325,7 +325,7 @@ ul li {
 	letter-spacing: 3px;
 	line-height: 24px;
 	margin-top: 10px;
-	margin-bottom: 80px;
+	margin-bottom: 20%;
 	text-transform: uppercase;
 }
 /* ------------------------------------------------------------------------------
@@ -594,4 +594,18 @@ ul li {
 
 .teams_image{
 	text-align: center;
+}
+
+.change_button_down > .fa-angle-down{
+  animation-name: icon_rotate_down;
+	color: white;
+	font-size: 30px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes icon_rotate_down {
+    from {transform: translate(0px, -10px);}
+    to {transform: translate(0px, 10px);}
 }
